@@ -17,7 +17,6 @@ def permute_backtracking(array):
     backtrack([], used)
     return results
 
-# Contoh penggunaan
 array = [1, 2, 3]
 output = permute_backtracking(array)
 print("Semua permutasi:", output)
